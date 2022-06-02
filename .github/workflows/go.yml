@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branches: [ Aula_4 ]
+    branches: [ Aula_5 ]
   pull_request:
-    branches: [ Aula_4 ]
+    branches: [ Aula_5 ]
 
 jobs:
 
