@@ -31,7 +31,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout-go@v3
+    - uses: actions/checkout@v3
     
     - name: Build
       run: go build -v main.go
